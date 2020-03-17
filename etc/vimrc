@@ -1,0 +1,5 @@
+:autocmd BufNewFile  *.termilog      0r ~/Documents/termilog/etc/termilog.tmpl
+:autocmd BufNewFile  *.termilog      :3r ! ls ~/Documents/termilog/entries | wc -l
+:autocmd BufNewFile *.termilog       :3join
+:autocmd BufNewFile  *.termilog      4s/^Date:/\=strftime("Date: %A, %B %d, %Y")/
+:autocmd BufNewFile *.termilog       :6
