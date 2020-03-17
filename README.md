@@ -19,7 +19,8 @@ contents to the bottom of ~/.vimrc if you already have an existing one.
 1. $ cd ~/Documents
 2. $ git clone https://github.com/crtermilog/termilog.git
 3. $ cat ~/Documents/termilog/etc/vimrc >> ~/.vimrc 
-4. $ ~/Documents/termilog/bin/termilog
+4. $ chmod 744 ~/Documents/termilog/bin/termilog
+5. $ ~/Documents/termilog/bin/termilog
    - Add termilog to your path as you would anything else.
 
 # Extra
